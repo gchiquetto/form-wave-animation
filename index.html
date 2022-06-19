@@ -13,35 +13,25 @@
 </head>
 <body>
     <main class="main">
-        <form action="#">
-            <h1 class="heading-1">Please Login</h1> 
+        <form class="form" action="#">
+            <h1 class="heading-1">Login</h1> 
+            
+            <div class="form--field">
+                <input type="text" id="email" name="email" required>
+                <label>Email</label>      
+            </div>
+            
+            <div class="form--field">
+                <input type="password" id="password" name="password" required>
+                <label>Password</label>
 
-            <label for="email">
-                <span class="form-label">e</span>
-                <span class="form-label">m</span>
-                <span class="form-label">a</span>
-                <span class="form-label">i</span>
-                <span class="form-label">l</span>
-            </label>
-            <input type="text" id="email" name="email">
-
-            <label for="password">
-                <span class="form-label">p</span>
-                <span class="form-label">a</span>
-                <span class="form-label">s</span>
-                <span class="form-label">s</span>
-                <span class="form-label">w</span>
-                <span class="form-label">o</span>
-                <span class="form-label">r</span>
-                <span class="form-label">d</span>
-            </label>
-            <input type="password" id="password" name="password">
-
-            <button class="btn">Login</button>
+            </div>
+            
+            <button class="form--btn">Login</button>
 
             <div class="register-container">
                 <h2 class="heading-2">Don't have an account?</h2>
-                <a href="#" class="register-container--link">Registter</a>
+                <a href="#" class="register-container--link">Register</a>
             </div> 
         </form>
     </main>
